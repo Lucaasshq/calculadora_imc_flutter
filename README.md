@@ -1,16 +1,3 @@
 # Calculadora IMC 🧮
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/Lucaasshq/calculadora_imc_flutter/assets/120293165/78e01fb3-b9b0-47f2-a9dd-f4ea5c4f8034" alt="Descrição da imagem" width="360" height="760">
