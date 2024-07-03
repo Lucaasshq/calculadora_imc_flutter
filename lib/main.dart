@@ -1,6 +1,5 @@
 import 'package:calculadora_imc/colors/app_colors.dart';
 import 'package:calculadora_imc/imc_page.dart';
-import 'package:calculadora_imc/repository/imc_repository.dart';
 import 'package:flutter/material.dart';
 
 void main() {

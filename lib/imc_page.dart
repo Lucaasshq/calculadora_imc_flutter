@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'colors/app_colors.dart';
+import './model/imc.dart';
 
 // ignore: must_be_immutable
 class ImcPage extends StatefulWidget {
@@ -16,7 +17,6 @@ class _ImcPageState extends State<ImcPage> {
   final TextEditingController pesoController = TextEditingController();
   final TextEditingController alturaController = TextEditingController();
   final _form = GlobalKey<FormState>();
-
   String infoText = 'Informe seus dados';
 
   calcular() {
@@ -24,7 +24,10 @@ class _ImcPageState extends State<ImcPage> {
       double peso = double.parse(pesoController.text);
       double altura = double.parse(alturaController.text) / 100;
 
-      double imc = peso / (altura * altura);
+      Imc imcClass = Imc(peso, altura);
+      double imc = imcClass.peso / (imcClass.altura * imcClass.altura);
+      
+
       if (imc < 18.5) {
         infoText = '${imc.toStringAsFixed(2)} Abaixo do peso';
       } else if (imc < 25) {

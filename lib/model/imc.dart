@@ -1,7 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+
 class Imc {
-  final double _peso;
-  final double _altura;
+  double _peso = 0;
+  double _altura = 0;
+  
 
   Imc(this._peso, this._altura);
 
@@ -12,4 +14,6 @@ class Imc {
   double get altura {
     return _altura;
   }
+
+
 }
